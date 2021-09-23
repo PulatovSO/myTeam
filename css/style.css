@@ -44,22 +44,15 @@ h1 {
   line-height: 28px;
   color: #fff;
   position: relative;
-}
-
-.nav__list-item:after {
-  content: '';
-  display: inline-block;
-  height: 2px;
-  width: 0;
-  background: #fff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
   transition: all 0.2s ease-in-out;
 }
 
-.nav__list-item:hover::after {
-  width: 100%;
+.nav__list-item:hover {
+  color: #F67E7E;
+}
+
+.nav__list-item:active {
+  color: #f67e7ecb;
 }
 
 .btn {
@@ -79,6 +72,11 @@ h1 {
   background: #fff;
   color: #014E56;
 }
+
+.btn:active {
+  opacity: 0.7;
+}
+
 /* /HEADER */
 
 
@@ -335,9 +333,22 @@ h1 {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 
+.footer__logo-link:hover,
+.footer__social:hover {
+  color: #F67E7E;
+}
+
+.footer__logo-link:active,
+.footer__social:active {
+  color: #f67e7ec0;
+}
+
+
 .footer__address {
+  font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
@@ -357,6 +368,7 @@ h1 {
   color: #fff;
   font-size: 25px;
   margin-left: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer__copyright {
