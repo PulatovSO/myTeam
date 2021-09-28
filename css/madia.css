@@ -1,0 +1,274 @@
+/* RESPONSIVENESS ========================================== */
+
+@media (max-width: 992px) {
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* header ===================== */
+  #header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header__nav {
+    left: 0;
+  }
+
+
+  /* footer ===================== */
+
+  .footer__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .footer__logo {
+    width: 120px;
+  }
+
+  .footer__address-col {
+    position: relative;
+    left: 0;
+    flex-grow: 1;
+    text-align: right;
+  }
+
+  .footer__socials-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer__social {
+    position: relative;
+    left: -60px;
+    color: #fff;
+    font-size: 32px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .footer__copyright {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    text-align: right;
+  }
+
+  /* home page =================================== */
+#home-hero {
+  padding-bottom: 256px;
+  background-image: none;
+  height: unset;
+}
+
+  .hero__wrap {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .hero__background {
+    background-position: center bottom;
+  }
+
+  .hero__title {
+    margin-top: 120px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  .hero__paragraph {
+    margin-top: -20px;
+    padding-top: 0;
+    width: 500px;
+  }
+
+  .hero__paragraph br {
+    display: none;
+  }
+
+  .hero__paragraph::before {
+    display: none;
+  }
+
+  /* build ============ */
+  #build {
+    background-position: top right;
+  }
+
+  .build__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .build__title {
+    width: 70%;
+    align-self:flex-start;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .build__title::before {
+    top: 200px;
+  }
+
+  .build__title br {
+    display: none;
+  }
+
+  /* story section =============== */
+  #story {
+    padding-bottom: 350px;
+  }
+
+  .story__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .story__cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .story__card {
+    margin-bottom: 140px;
+  }
+
+  .story__card br {
+    display: none;
+  }
+
+  .card__paragraph::before {
+    top: -40px;
+  }
+
+  
+  /* about page ================================== */
+  .about-hero__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-hero__title {
+    margin: 0;
+    margin-top: 120px;
+  }
+
+  .section-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .about-hero__p {
+    padding-top: 0;
+    width: 457px;
+  }
+
+  .about-hero__p::before {
+    display: none;
+  }
+
+  /* clients section */
+
+  .clients__list {
+    justify-content: space-between;
+  }
+
+  .clients__list-item {
+    margin-left: -40px;
+  }
+
+  .clients__list-item i {
+    margin-right: 10px;
+  }
+
+  /* directors ================= */
+
+  .directors__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+
+  /* start section ============= */
+
+  #start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: 0 82px;
+  }
+
+  .start__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  /* contact page ================================ */
+  .contact__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__text {
+    text-align: center;
+  }
+
+  .contact__ask-list {
+    margin-bottom: 0;
+    display: flex;
+    width: 72%;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contact__form-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__form {
+    width: 78%;
+    overflow: hidden;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

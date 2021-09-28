@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Team</title>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/madia.css">
+</head>
+<body>
+ 
+  <section id="contact-hero">
+    <h1>MyTeam</h1>
+    <header id="header">
+      <div class="header__wrap container row between align-center">
+        <div class="header__logo-wrap">
+          <a href="#">
+            <img src="img/logo.svg" alt="logo" class="header__logo">
+          </a>
+        </div>
+        <nav class="header__nav nav">
+          <ul class="nav__list row">
+            <li class="nav__list-item"><a href="index.html">home</a></li>
+            <li class="nav__list-item"><a href="about.html">about</a></li>
+          </ul>
+        </nav>
+        <div class="header__btn-wrap">
+          <a href="#" class="header__btn btn">contact us</a>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <section id="contact">
+    <img src="img/dir__left-bg.svg" alt="image" class="contact__bg-left">
+    <div class="contact__wrap row between container">
+      <div class="contact__desc">
+        <div class="contact__text">
+          <h2 class="contact__title">Contact</h2>
+          <p class="contact__ask">Ask us about</p>
+        </div>
+        <ul class="contact__ask-list">
+          <li class="contact__faq">The quality of our talent network</li>
+          <li class="contact__faq">Usage & implementation of our software</li>
+          <li class="contact__faq">How we help drive innovation</li>
+        </ul>
+      </div>
+      <div class="contact__form-wrap">
+        <form action="https://echo.htmlacademy.ru/" class="contact__form" method="POST">
+          <div class="contact__form-inner">
+            <input class="contact__input" type="text" id="name" name="name" placeholder="Name" required>
+            <input class="contact__input" type="email" id="email" name="email" placeholder="Email Address" required>
+            <input class="contact__input" type="text" id="company-name" name="company-name" placeholder="Company Name" required>
+            <input class="contact__input" type="text" id="title" name="title" placeholder="Title" required>
+            <textarea class="contact__input contact__message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <button class="contact__btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer id="site-footer">
+    <div class="footer__wrap row between container">
+      <div class="footer__logo-col">
+        <img src="img/logo.svg" alt="logo" class="footer__logo">
+        <div class="footer_logo-links">
+          <a href="index.html" class="footer__logo-link">home</a>
+          <a href="about.html" class="footer__logo-link">about</a>
+        </div>
+      </div>
+      <div class="footer__address-col">
+        <address class="footer__address">
+          987  Hillcrest Lane <br> 
+          Irvine, CA <br> 
+          California 92714 <br> 
+          Call Us : 949-833-7432
+        </address>
+      </div>
+      <div class="footer__socials-col">
+        <ul class="footer__socials row">
+          <li class="footer__social"><a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook-square'></i></a></li>
+          <li class="footer__social"><a href="https://pinterest.com" target="_blank"><i class='bx bxl-pinterest' ></i></a></li>
+          <li class="footer__social"><a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a></li>
+        </ul>
+        <p class="footer__copyright">
+          &copy; Copyright 2020. All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
